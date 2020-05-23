@@ -30,3 +30,7 @@ FAQ
 * Your taste in music is bad.?.
 
     Send PR to fix please.
+
+* Do u even spotify?
+
+    Trying to quit to be honest.

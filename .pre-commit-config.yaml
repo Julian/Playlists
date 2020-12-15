@@ -2,11 +2,11 @@ exclude: README.rst
 
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: 31d41ff29115a87808277ee0ec23999b17d5b583
+    rev: v3.4.0
     hooks:
     -   id: end-of-file-fixer
     -   id: file-contents-sorter
         files: ".*"
         exclude: "Guitar|Up|Years/Top Ten/|\\..*"
-        args: ["--ignore-case"]
+        args: ["--ignore-case", "--unique"]
     -   id: trailing-whitespace
